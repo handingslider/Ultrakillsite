@@ -1,0 +1,59 @@
+body{
+    background-image: url(sd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.info{
+    font-size: 30px;
+}
+.color{
+    color: white;
+}
+.link{
+    border: 2px solid red;
+    width: 15%;
+    float: left;
+}
+.section{
+    width: 50%;
+    float: right;
+}
+h1,p{
+    color:white;
+}
+h3{
+    text-align: left;
+    color: gold;
+    font-size: 40px;
+}
+.zagol{
+    font-size: 70px;
+}
+a,p{
+    font-size: 25px;
+}
+.revolver{
+    float: center;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+.revoinfo{
+    width: 30%;
+    float: left;
+}
+.sharpshooter2{
+    float: right;
+}
+.revoinfo{border: 2px solid green;}
+@media only screen
+and (min-device-width: 500px)
+and (max-device-width: 800px){
+  .revoinfo {width: 100%;  }
+  .link {width: 40%;}
+}
+.whatisuk{
+    border: 2 px solid yellow;
+}
