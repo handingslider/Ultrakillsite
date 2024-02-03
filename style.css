@@ -59,3 +59,9 @@ and (max-device-height: 2408px){
 .whatisuk{
     border: 2 px solid yellow;
 }
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1750px)
+{
+  .revoinfo {width: 50%;  }
+}
